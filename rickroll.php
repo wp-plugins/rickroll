@@ -14,7 +14,7 @@ function ippy_rickroll($html, $url, $args) {
     $url_string = parse_url($url, PHP_URL_QUERY);
     parse_str($url_string, $id);
     if (isset($id['v'])) {
-        return '<iframe width="640" height="420" src="http://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&showinfo=0" frameborder="1"></iframe>';
+        return '<iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>';
     }
     return $html;
 }
