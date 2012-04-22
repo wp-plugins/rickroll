@@ -5,8 +5,6 @@ Tags: plugin, rickroll, video, youtube
 Requires at least: 3.3
 Tested up to: 3.4
 Stable tag: trunk
-Plugin URI: http://halfelf.org/plugins/rickroll/
-Author URI: http://ipstenu.org/
 
 Change all your embedded YouTube videos to Rick Astley's "Never Gonna Give You Up."
 
