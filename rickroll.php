@@ -4,7 +4,7 @@ Plugin Name: Rickroll
 Plugin URI: http://halelf.org/plugins/rickroll/
 Description: Rickroll Your Embeded Videos
 Author: Mika 'Ipstenu' Epstein
-Version: 2.0
+Version: 2.1
 Author URI: http://ipstenu.org
 */
 
@@ -25,6 +25,11 @@ if ( strstr($url, 'youtube.com') ) {
 elseif ( strstr($url, 'vimeo.com' ) ) {
    $pattern = '/video\/(\d+)\"/i';
    $html = preg_replace( $pattern , 'video/2619976"', $html);
+}
+
+// Leave these alone
+elseif ( strstr($url, 'twitter.com' ) || strstr($url, 'scribd.com' ) || strstr($url, 'photobucket.com' ) || strstr($url, 'polldaddy.com' ) || strstr($url, 'smugmug.com' ) ) {
+   $html = $html;
 }
 
 // Everyone else

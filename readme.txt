@@ -26,6 +26,10 @@ Becuase not every video site has a self-hosted Rickroll, so in those instances, 
 
 == Changelog ==
 
+= 2.1 =
+* 24 April, 2012 by Ipstenu
+* Quick fix to omit non-videos so you can still see yer tweets and images. And polls. Sorry, PollDaddy.
+
 = 2.0 =
 * 24 April, 2012 by Ipstenu
 * Better, faster, code.
