@@ -14,7 +14,7 @@ The Rickroll plugin converts your embedded videos into Rick Astley's "Never Gonn
 
 http://www.youtube.com/watch?v=oHg5SJYRHA0
 
-== FAQ ==
+== Frequently Asked Questions ==
 = What Is Rickrolling? =
 <a href="http://en.wikipedia.org/wiki/Rickrolling">Rickrolling</a> is the fine art of pretending to show one video, and substituting it with another.
 
