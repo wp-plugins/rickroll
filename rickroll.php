@@ -4,7 +4,7 @@ Plugin Name: Rickroll
 Plugin URI: http://halelf.org/plugins/rickroll/
 Description: Rickroll Your Embeded Videos
 Author: Mika 'Ipstenu' Epstein
-Version: 2.1
+Version: 2.2
 Author URI: http://ipstenu.org
 */
 
@@ -36,4 +36,15 @@ elseif ( strstr($url, 'twitter.com' ) || strstr($url, 'scribd.com' ) || strstr($
 else { $html = $default; }
 
 return $html;
+}
+
+// donate link on manage plugin page
+
+add_filter('plugin_row_meta', 'ippy_rickroll_donate_link', 10, 2);
+function ippy_scc_donate_link($links, $file) {
+        if ($file == plugin_basename(__FILE__)) {
+                $donate_link = '<a href="https://www.wepay.com/donations/halfelf-wp">Donate</a>';
+                $links[] = $donate_link;
+        }
+        return $links;
 }
