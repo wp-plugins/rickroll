@@ -3,7 +3,7 @@ Contributors: Ipstenu
 Donate link: https://www.wepay.com/donations/halfelf-wp
 Tags: plugin, rickroll, video, youtube
 Requires at least: 3.3
-Tested up to: 3.5
+Tested up to: 3.7
 Stable tag: 2.0
 
 This is not just a plugin, it symbolizes the hopes and ethusiasm of an entire meme, summed up into one word, made famous by the internet: RICKROLL.
