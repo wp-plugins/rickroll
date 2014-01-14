@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: Ipstenu
-Donate link: https://www.wepay.com/donations/halfelf-wp
+Donate link: https://store.halfelf.org/donate/
 Tags: plugin, rickroll, video, youtube
 Requires at least: 3.3
 Tested up to: 3.8
