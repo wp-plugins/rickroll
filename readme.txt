@@ -6,7 +6,7 @@ Requires at least: 3.3
 Tested up to: 4.1
 Stable tag: 2.0
 
-This is not just a plugin, it symbolizes the hopes and ethusiasm of an entire meme, summed up into one word, made famous by the internet: RICKROLL.
+This is not just a plugin, it symbolizes the hopes and enthusiasm of an entire meme, summed up into one word, made famous by the internet: RICKROLL.
 
 == Description ==
 
@@ -22,7 +22,7 @@ http://www.youtube.com/watch?v=oHg5SJYRHA0
 My Tivo box died and I was a little bored.
 
 = Why does my video switch to YouTube? =
-Becuase not every video site has a self-hosted Rickroll, so in those instances, it defaults to the YouTube 'official' RickRoll video.
+Because not every video site has a self-hosted Rickroll, so in those instances, it defaults to the YouTube 'official' RickRoll video.
 
 == Changelog ==
 
